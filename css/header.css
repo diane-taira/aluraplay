@@ -1,0 +1,42 @@
+.cabecalho__barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 25px;
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho__horario .horario {
+    margin-left: 15px;
+}
+
+.cabecalho__barra .cabecalho__cel {
+    margin-right: 10px;
+} 
+
+.cabecalho__icones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-quartenaria);
+    width: 100vw;
+    height: 40px;
+    padding: 8px;
+}
+
+.cabecalho__icones .logo {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.cabecalho__icones .cabecalho__icones__links{
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+    margin-right: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+

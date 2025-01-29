@@ -1,0 +1,27 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(./header.css);
+@import url(./main.css);
+@import url(./rodape.css);
+
+:root {
+    --cor-primaria: #1A1A19;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #1F4529;
+    --cor-quartenaria: #ABBA7C;
+    --cor-quinaria: #000000;
+    --cor-senaria: #CEDF9F;
+
+    --fonte-primaria: "Anonymous Pro", sans-serif;
+
+}
+
+body {
+    background-color: var(--cor-quinaria);
+    font-family: var(--fonte-primaria);
+    font-size: 14px;
+    height: 100vh;
+    color: var(--cor-secundaria);
+}
+
+

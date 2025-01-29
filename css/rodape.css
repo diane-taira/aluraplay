@@ -1,0 +1,76 @@
+.rodape {
+    background-color: var(--cor-quartenaria);
+    color: var(--cor-terciaria);
+    display: flex;
+    flex-direction: row;
+    padding: 30px 65px 10px 50px;
+    gap: 40px;
+}
+
+.rodape .rodape__esquerdo  {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__esquerdo .rodape__texto {
+    gap: 40px;
+}
+
+.rodape .rodape__direito {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.rodape__texto .titulo {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-primaria);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.rodape__texto .links {
+    line-height: 1.5;
+    flex-shrink: 0;
+}
+
+.menu {
+
+    bottom: 30px;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+    width: 100vw;
+    height: 60px;
+    z-index: 10;
+}
+
+.menu .menu__item {
+    text-align: center;
+}
+
+.menu__item .texto {
+    margin-left: 0px;
+}
+
+.barra__cel {
+    background-color: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 30px;
+
+}
+
+.barra__cel .cel__icones {
+    display: flex;
+    width: 14px;
+    height: 14px;
+}
