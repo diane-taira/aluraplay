@@ -76,3 +76,17 @@
     width: 14px;
     height: 14px;
 }
+
+@media screen (max-width: 428px) {
+       
+    .menu {
+        flex-direction: column; /* Mudar de linha para coluna */
+        height: auto; /* Ajuste a altura para que fique adequado */
+    }
+    
+    .menu .menu__item {
+        padding: 10px; /* Ajuste o espaçamento entre os itens */
+    }
+
+}
+    
